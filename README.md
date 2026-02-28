@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [PathFinder] 🎯
+# PathFinder 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Codesphere
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Ayana PB - Vidya Academy of Science and Technology
+- Member 2: Devananda KV - Vidya Academy of Science and Technology
 
 ### Hosted Project Link
-[mention your project hosted link here]
+
 
 ### Project Description
-[2-3 lines about what your project does]
+A smart dashboard that brings tech news,jobs,and updates into one place for students.It reduces information overload and saves time.
 
 ### The Problem statement
-[What problem are you solving?]
+Students face information overload when trying to track tech news,job openings,and industry updates across multiple platforms.This is scattered and unfiltered flow of information leads to wasted time, missed oppurtunities,and increased stress.
 
 ### The Solution
-[How are you solving it?]
+Our solution is unified dashboard that organizes tech news,job opportunities,and field updates into one structured platform.It filters and prioritizes high-value information, helping students stay updated quickly and efficiently.
 
 ---
 
@@ -31,51 +31,23 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: HTML,CSS,JavaScript
+- Frameworks used: Flask(Python)
+- Libraries used: Flask
+- Tools used: Figma for UI/UX, VS Code, and a web browser for testing and deployment preview
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Unified Dashboard – CombinSmart Filtering – Prioritizes high-impact and career-relevant information using keyword-based logic.
+- Feature 2: Smart Filtering – Prioritizes high-impact and career-relevant information using keyword-based logic.
+- Feature 3: Categorized Streams – Separates content into Innovation, Jobs, and Field Updates for clarity.
+- Feature 4: Time-Efficient Briefing – Provides a structured daily overview to reduce scrolling and information overload.
 
 ---
 
-## Implementation
 
-### For Software:
-
-#### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
-
-#### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
 
 ## Project Documentation
 
