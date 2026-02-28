@@ -14,7 +14,7 @@
 
 ### Hosted Project Link
 
-
+https://github.com/Ayanaahh/PathFinder
 
 ### Project Description
 A smart dashboard that brings tech news,jobs,and updates into one place for students.It reduces information overload and saves time.
@@ -55,52 +55,18 @@ List the key features of your project:
 ### For Software:
 
 #### Screenshots (Add at least 3)
+<img width="1867" height="799" alt="image" src="https://github.com/user-attachments/assets/1f9b3605-ced4-4485-8843-f10766f83817" />
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1869" height="724" alt="image" src="https://github.com/user-attachments/assets/ed2f20aa-ca4b-4859-bd1d-5a3b553a6365" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="1879" height="872" alt="image" src="https://github.com/user-attachments/assets/00ac9664-430d-41a7-b632-312542166de8" />
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-#### Diagrams
-
-**System Architecture:**
-
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
-
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
-
----
-
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 #### Build Photos
 
 ![Team](Add photo of your team here)
 
-![Components](Add photo of your components here)
-*List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ---
 
