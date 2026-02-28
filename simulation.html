@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>System Simulation</title>
+
+<style>
+body{
+font-family: Arial;
+background:#0f172a;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+flex-direction:column;
+text-align:center;
+}
+
+.loader{
+border:6px solid #f3f3f3;
+border-top:6px solid #3b82f6;
+border-radius:50%;
+width:70px;
+height:70px;
+animation:spin 1s linear infinite;
+margin:20px;
+}
+
+@keyframes spin{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+
+.progress{
+width:300px;
+background:#1e293b;
+border-radius:20px;
+overflow:hidden;
+}
+
+.bar{
+height:12px;
+width:0%;
+background:#3b82f6;
+transition:width 0.3s;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Initializing TechPulse System</h1>
+
+<div class="loader"></div>
+
+<p id="status">Connecting to data sources...</p>
+
+<div class="progress">
+<div class="bar" id="bar"></div>
+</div>
+
+<script>
+let progress = 0;
+const bar = document.getElementById("bar");
+const status = document.getElementById("status");
+
+const steps = [
+"Connecting to tech databases...",
+"Fetching innovation updates...",
+"Analyzing career opportunities...",
+"Loading internships...",
+"Preparing dashboard..."
+];
+
+let stepIndex = 0;
+
+let interval = setInterval(()=>{
+progress += 20;
+bar.style.width = progress + "%";
+status.innerText = steps[stepIndex];
+stepIndex++;
+
+if(progress >= 100){
+clearInterval(interval);
+setTimeout(()=>{
+window.location.href="result.html";
+},1000);
+}
+
+},1000);
+</script>
+
+</body>
+</html>

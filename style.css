@@ -1,0 +1,87 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: #0f172a;
+    color: white;
+    padding: 15px;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+}
+
+/* Buttons (your style improved slightly) */
+button {
+    padding: 10px;
+    margin: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* Stats Dashboard */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+/* Internship grid */
+.internship-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+/* Internship card */
+.internship {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+/* Tech feed */
+.feed {
+    margin-top: 20px;
+    display: grid;
+    gap: 15px;
+}
+
+.update {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+/* Search box */
+input {
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

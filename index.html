@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechPulse – Internship & Tech Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>TechPulse Dashboard</h1>
+</header>
+
+<div class="container">
+
+    <!-- Stats Section -->
+    <div class="stats">
+        <div class="card">
+            <h2 id="updatesCount">5</h2>
+            Tech Updates
+        </div>
+
+        <div class="card">
+            <h2 id="totalInternships">0</h2>
+            Internships
+        </div>
+
+        <div class="card">
+            <h2>Live</h2>
+            Innovation Feed
+        </div>
+    </div>
+
+    <!-- Search -->
+    <div class="search">
+        <input type="text" id="searchBox" placeholder="Search internships..." onkeyup="3````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````()">
+    </div>
+
+    <!-- Internship Filters -->
+    <div class="filters">
+        <button onclick="showAll()">Show All</button>
+        <button onclick="filterBeginner()">Beginner Friendly</button>
+    </div>
+
+    <!-- Internship Section -->
+    <h2>Internship Opportunities</h2>
+    <div id="internship-list" class="internship-grid"></div>
+
+    <!-- Tech Sector Filters -->
+    <h2>Tech Innovation Feed</h2>
+    <div class="filters">
+        <button onclick="filterSector('All')">All</button>
+        <button onclick="filterSector('AI')">AI/ML</button>
+        <button onclick="filterSector('Cloud')">Cloud</button>
+        <button onclick="filterSector('Cybersecurity')">Cybersecurity</button>
+        <button onclick="filterSector('Blockchain')">Blockchain</button>
+        <button onclick="filterSector('Startups')">Startups</button>
+    </div>
+
+    <!-- Live Updates -->
+    <div id="feed" class="feed"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

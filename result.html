@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TechPulse Results</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>TechPulse Live Dashboard</h1>
+</header>
+
+<div class="container">
+
+<h2>Latest Tech Innovations</h2>
+<div class="feed" id="feed"></div>
+
+<h2>Internship Results</h2>
+<div class="internship-grid" id="internship-list"></div>
+
+</div>
+
+<script>
+const updates = [
+{title:"AI Startup raises $20M", sector:"AI"},
+{title:"New Cybersecurity Tool Released", sector:"Cybersecurity"},
+{title:"Blockchain in Healthcare", sector:"Blockchain"},
+{title:"Cloud AI Platform Launched", sector:"Cloud"}
+];
+
+const internships = [
+{title:"Frontend Intern", company:"TechNova"},
+{title:"AI Intern", company:"FutureAI"},
+{title:"Cloud Intern", company:"SkyNet"},
+{title:"Software Intern", company:"DevLabs"}
+];
+
+const feed = document.getElementById("feed");
+updates.forEach(u=>{
+feed.innerHTML += `
+<div class="update">
+<h3>${u.title}</h3>
+<p>Sector: ${u.sector}</p>
+</div>
+`;
+});
+
+const container = document.getElementById("internship-list");
+internships.forEach(i=>{
+container.innerHTML += `
+<div class="internship">
+<h3>${i.title}</h3>
+<p>${i.company}</p>
+</div>
+`;
+});
+</script>
+
+</body>
+</html>
